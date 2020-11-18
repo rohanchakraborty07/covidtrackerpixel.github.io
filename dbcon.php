@@ -1,9 +1,13 @@
 <?php
 
-$server= 'localhost';
-$user = 'root';
-$password = '';
-$db='coronadb';
+//$server= 'localhost';
+//$user = 'root';
+//$password = '';
+//$db='coronadb';
+$server= 'remotemysql.com';
+$user = 'hOJn928xjm';
+$password = '8HOmWROuHo';
+$db='hOJn928xjm';
 $con = mysqli_connect($server, $user, $password, $db);
 if($con){
     ?>
